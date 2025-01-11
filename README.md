@@ -21,10 +21,15 @@ This repository contains the implementation for our paper on **deep inertial nav
 This repository provides all the necessary code for training, evaluation, and reproducing the results described in the paper.
 
 # **Installation**
-## ***Dependencies:***
+## ***Python Dependencies:***
 - Python >= 3.8
 - TensorFlow >= 2.4
 - Other dependencies listed in `requirements.txt`
+
+## ***CoppeliaSim Dependencies:***
+The repository uses **RemoteAPI** in **CoppeliaSim** (formerly V-REP) for enabling external applications to communicate with the simulator over a network. This Remote API is available in multiple languages, including **Python**, **C++**, **Lua**, **Java**, and others.
+
+For more detailed instructions on using the CoppeliaSim refer to the official [CoppeliaSim User Manual](https://manual.coppeliarobotics.com/index.html).
 
 
 
