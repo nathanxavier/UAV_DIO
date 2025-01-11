@@ -1,8 +1,14 @@
-conda create -n NNBO python=3.9
-conda install numpy pandas scikit-learn seaborn
-
-conda install conda-forge::gym
-conda install numpy pandas scikit-learn tqdm imageio seaborn pyproj
-conda install conda-forge::fvcore iopath pymap3d einops pytorch-lightning neuralforecast
-conda install timm
-pip install --upgrade timm
+numpy
+pandas
+scikit-learn
+seaborn
+tqdm
+imageio
+pyproj
+fvcore
+iopath
+pymap3d
+einops
+pytorch-lightning
+neuralforecast
+timm
