@@ -39,4 +39,8 @@ The training data is from a proprietary dataset provided by the Brazilian Air Fo
 
 The evaluation was performed using the CoppeliaSim simulator, where we tested the model's performance and generalization, achieving significant results in simulated environments.
 
+<p align="center">
+**UAV MODEL AVAILABILITY UPON ACCEPTANCE**
+</p>
+
 ![Preview](https://github.com/tmKamal/hosted-images/blob/master/under-construction/Document.gif?raw=true)<br/>  
