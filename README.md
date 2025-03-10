@@ -9,7 +9,7 @@
 <img src="https://github.com/nathanxavier/UAV_DIO/blob/701b1211c8c59c28623a351f632b636eb7d26b24/Figures/Engineering%20Analysis%20with%20Boundary%20Elements.png">
 </p>
 
-
+#
 # **Overview**
 This repository contains the implementation for our paper on **deep inertial navigation for UAV pose estimation**, leveraging deep neural networks to address the challenge of self-localization without global positioning.
 
@@ -21,7 +21,7 @@ This repository contains the implementation for our paper on **deep inertial nav
 
 This repository provides all the necessary code for training, evaluation, and reproducing the results described in the paper.
 
-
+#
 # **Installation**
 ## ***Python Dependencies:***
 - Python >= 3.8
@@ -33,7 +33,7 @@ The repository uses **RemoteAPI** in **CoppeliaSim** (formerly V-REP) to enable 
 
 For more detailed instructions on simulator use, please look at the official [CoppeliaSim User Manual](https://manual.coppeliarobotics.com/index.html).
 
-
+#
 # **Training and Evaluation Data**
 The training data is from a proprietary dataset provided by the Brazilian Air Force, consisting of operational, training, and research flight data. While not publicly available, the UAV used in this study shares similarities with those in the [NTU VIRAL dataset](https://doi.org/10.1177/02783649211052312) and the [CLOUD dataset](https://www.dynsyslab.org/cloud-dataset).
 
