@@ -1,4 +1,7 @@
+#
+#
 # **UAV DIO**
+#
 ## ***Unmanned Aerial Vehicle Deep Inertial Odometry***
 
 [Nathan A. Z. Xavier](http://lattes.cnpq.br/2088578568009855),
@@ -12,6 +15,7 @@
 #
 #
 # **Overview**
+#
 This repository contains the implementation for our paper on **deep inertial navigation for UAV pose estimation**, leveraging deep neural networks to address the challenge of self-localization without global positioning.
 
 ## ***Highlights:***
@@ -25,6 +29,7 @@ This repository provides all the necessary code for training, evaluation, and re
 #
 #
 # **Installation**
+#
 ## ***Python Dependencies:***
 - Python >= 3.8
 - TensorFlow >= 2.4
@@ -38,6 +43,7 @@ For more detailed instructions on simulator use, please look at the official [Co
 #
 #
 # **Training and Evaluation Data**
+#
 The training data is from a proprietary dataset provided by the Brazilian Air Force, consisting of operational, training, and research flight data. While not publicly available, the UAV used in this study shares similarities with those in the [NTU VIRAL dataset](https://doi.org/10.1177/02783649211052312) and the [CLOUD dataset](https://www.dynsyslab.org/cloud-dataset).
 
 ## ***Testing Stage on a Real Flight***
