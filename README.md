@@ -56,11 +56,11 @@ The EKF quickly drifts within the first minute, and when the UAV moves upward, D
 The testing stage was conducted in the CoppeliaSim simulator using a standard quadcopter model. The UAV, equipped with an accelerometer and gyroscope, performed a flight simulation with synthetic sensor errors. The simulation involved sinusoidal orbits along all three axes, starting from an altitude of -1m. Each DIO technique estimated position and yaw orientation using dead reckoning, and the results were compared to a Kalman filter approach.
 
 <p align="center">
-  <img src="https://github.com/nathanxavier/UAV_DIO/blob/f0c464c43296a785207d4464a172ed4d65704c5a/Figures/FLY_Teste.png">
+  <img src="https://github.com/nathanxavier/UAV_DIO/blob/f0c464c43296a785207d4464a172ed4d65704c5a/Figures/Coppelia_Teste.png">
   <br>
   <em>Flight trajectory during the simulation.</em>
   <br><br>
-  <img src="https://github.com/nathanxavier/UAV_DIO/blob/f0c464c43296a785207d4464a172ed4d65704c5a/Figures/FLY_Compara.png">
+  <img src="https://github.com/nathanxavier/UAV_DIO/blob/f0c464c43296a785207d4464a172ed4d65704c5a/Figures/Coppelia_Compara.png">
   <br>
   <em>Comparison of position estimation errors across techniques.</em>
 </p>
