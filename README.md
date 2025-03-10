@@ -66,9 +66,3 @@ The testing stage was conducted in the CoppeliaSim simulator using a standard qu
 </p>
 
 In the one-minute simulated flight, the EKF showed a rapid increase in error in the north and east directions. The Updated Nine-Axis IONet technique followed the same error slope as the EKF in the first 30 seconds but had lower error afterward. The Updated IONet technique had the lowest error in the north, while the Updated AbolDeepIO had the lowest error in the east. None of the techniques were able to accurately predict height movement, as expected. For yaw rotation, the EKF consistently predicted the angle accurately, while the DIO techniques exhibited gradual drift due to the lack of continuous corrections. The Updated AbolDeepIO showed the lowest yaw error, while the Updated IONet displayed the highest. The test highlighted that, while the DIO techniques and EKF performed similarly for short periods, continuous corrections are crucial for precise inertial navigation, particularly for yaw estimation. The methods also demonstrated good cross-platform compatibility, performing well when switching from a hexacopter to a quadcopter, revealing both strengths and limitations in dynamic flight conditions.
-
-
-#
-<p align="center">
-**UAV MODEL AVAILABILITY UPON ACCEPTANCE**
-</p>
