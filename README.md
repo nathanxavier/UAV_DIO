@@ -1,7 +1,4 @@
-#
-#
 # **UAV DIO**
-#
 ## ***Unmanned Aerial Vehicle Deep Inertial Odometry***
 
 [Nathan A. Z. Xavier](http://lattes.cnpq.br/2088578568009855),
@@ -12,10 +9,8 @@
 <img src="https://github.com/nathanxavier/UAV_DIO/blob/701b1211c8c59c28623a351f632b636eb7d26b24/Figures/Engineering%20Analysis%20with%20Boundary%20Elements.png">
 </p>
 
-#
-#
+
 # **Overview**
-#
 This repository contains the implementation for our paper on **deep inertial navigation for UAV pose estimation**, leveraging deep neural networks to address the challenge of self-localization without global positioning.
 
 ## ***Highlights:***
@@ -26,10 +21,8 @@ This repository contains the implementation for our paper on **deep inertial nav
 
 This repository provides all the necessary code for training, evaluation, and reproducing the results described in the paper.
 
-#
-#
+
 # **Installation**
-#
 ## ***Python Dependencies:***
 - Python >= 3.8
 - TensorFlow >= 2.4
@@ -40,10 +33,8 @@ The repository uses **RemoteAPI** in **CoppeliaSim** (formerly V-REP) to enable 
 
 For more detailed instructions on simulator use, please look at the official [CoppeliaSim User Manual](https://manual.coppeliarobotics.com/index.html).
 
-#
-#
+
 # **Training and Evaluation Data**
-#
 The training data is from a proprietary dataset provided by the Brazilian Air Force, consisting of operational, training, and research flight data. While not publicly available, the UAV used in this study shares similarities with those in the [NTU VIRAL dataset](https://doi.org/10.1177/02783649211052312) and the [CLOUD dataset](https://www.dynsyslab.org/cloud-dataset).
 
 ## ***Testing Stage on a Real Flight***
@@ -76,6 +67,8 @@ The testing stage was conducted in the CoppeliaSim simulator using a standard qu
 
 In the one-minute simulated flight, the EKF showed a rapid increase in error in the north and east directions. The Updated Nine-Axis IONet technique followed the same error slope as the EKF in the first 30 seconds but had lower error afterward. The Updated IONet technique had the lowest error in the north, while the Updated AbolDeepIO had the lowest error in the east. None of the techniques were able to accurately predict height movement, as expected. For yaw rotation, the EKF consistently predicted the angle accurately, while the DIO techniques exhibited gradual drift due to the lack of continuous corrections. The Updated AbolDeepIO showed the lowest yaw error, while the Updated IONet displayed the highest. The test highlighted that, while the DIO techniques and EKF performed similarly for short periods, continuous corrections are crucial for precise inertial navigation, particularly for yaw estimation. The methods also demonstrated good cross-platform compatibility, performing well when switching from a hexacopter to a quadcopter, revealing both strengths and limitations in dynamic flight conditions.
 
+
+#
 <p align="center">
 **UAV MODEL AVAILABILITY UPON ACCEPTANCE**
 </p>
