@@ -60,7 +60,7 @@ The testing stage was conducted in the CoppeliaSim simulator using a standard qu
   <br>
   <em>Flight trajectory during the simulation.</em>
   <br><br>
-  <img src="https://github.com/nathanxavier/UAV_DIO/blob/f0c464c43296a785207d4464a172ed4d65704c5a/Figures/Coppelia_Compara.png">
+  <img src="https://github.com/nathanxavier/UAV_DIO/blob/3789f2fd43106c4d38633de7850de41ba587f665/Figures/Coppelia_Compara.png">
   <br>
   <em>Comparison of position estimation errors across techniques.</em>
 </p>
