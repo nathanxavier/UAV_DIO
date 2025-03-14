@@ -45,7 +45,7 @@ The first testing stage simulated a real flight using the same UAV from the trai
   <br>
   <em>Flight trajectory in a real flight.</em>
   <br><br>
-  <img src="https://github.com/nathanxavier/UAV_DIO/blob/35acbf377ab9084f21e4c81fc4b0f58ea261d02c/Figures/FLY_Compara.png">
+  <img src="https://github.com/nathanxavier/UAV_DIO/blob/98d8c6cc64da9a050e57bd077e45c9c857dbb9fa/Figures/FLY_Compara.png">
   <br>
   <em>Comparison of position estimation errors across techniques.</em>
 </p>
@@ -60,7 +60,7 @@ The testing stage was conducted in the CoppeliaSim simulator using a standard qu
   <br>
   <em>Flight trajectory during the simulation.</em>
   <br><br>
-  <img src="https://github.com/nathanxavier/UAV_DIO/blob/35acbf377ab9084f21e4c81fc4b0f58ea261d02c/Figures/Coppelia_Compara.png">
+  <img src="https://github.com/nathanxavier/UAV_DIO/blob/98d8c6cc64da9a050e57bd077e45c9c857dbb9fa/Figures/Coppelia_Compara.png">
   <br>
   <em>Comparison of position estimation errors across techniques.</em>
 </p>
